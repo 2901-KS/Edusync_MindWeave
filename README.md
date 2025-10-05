@@ -1,4 +1,3 @@
-# Edusync_MindWeave
 # MINDWEAVE – AI-Powered Study Companion
 
 MINDWEAVE is an AI-driven personalized study planner that helps students manage their time efficiently by creating intelligent study schedules, generating quizzes, flashcards, summaries, and providing topic explanations. It ensures subject-specific deadlines are respected and avoids monotony by mixing multiple subjects per day.
@@ -59,10 +58,16 @@ MINDWEAVE is an AI-driven personalized study planner that helps students manage 
    uvicorn main:app --reload
    ```
 
-6. Open your browser at:
+6. Open the backend API documentation at:
 
    ```
-   http://127.0.0.1:8000
+   http://localhost:8000/docs
+   ```
+
+7. Open the frontend in your browser at:
+
+   ```
+   http://localhost:5500/index.html
    ```
 
 ---
@@ -123,42 +128,14 @@ MINDWEAVE is an AI-driven personalized study planner that helps students manage 
 ## Frontend
 
 The frontend is built using **HTML/CSS/JavaScript/TypeScript** and connects with the backend through REST API calls.
+You can run the frontend locally at:
 
----
-
-## Screenshots / Demo
-
-You can add screenshots or demo GIFs here to showcase the project:
-
-* **Home Page**
-  ![Home Page](screenshots/home.png)
-
-* **Study Planner Output**
-  ![Planner Output](screenshots/planner.png)
-
-* **Flashcards Example**
-  ![Flashcards](screenshots/flashcards.png)
-
-* **Quiz Example**
-  ![Quiz](screenshots/quiz.png)
-
-*(Replace the above paths with your actual screenshot locations in the repository)*
-
----
-
-## Contribution
-
-Contributions are welcome. To contribute:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
+```
+http://localhost:5500/index.html
+```
 
 ---
 
 ## License
 
 This project is released under the MIT License.
-
-
