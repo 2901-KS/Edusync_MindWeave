@@ -139,3 +139,5 @@ http://localhost:5500/index.html
 ## License
 
 This project is released under the MIT License.
+## Video link
+https://drive.google.com/drive/u/0/folders/1my30wRgNpJDfBsxyNx2x_-7XEZR4YnTL
